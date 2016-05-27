@@ -1,5 +1,7 @@
 # Mois du JS - Angular 2
 
+![Components](assets/components.png)
+
 
 ## Prerequisites
 
