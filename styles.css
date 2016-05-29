@@ -3,3 +3,36 @@ my-app {
   display: inline-block;
 }
 
+slot-form {
+  display: inline-block;
+}
+
+slot-grid {
+  width: 640px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+slot-column {
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #eceeef;
+}
+
+slot-column section {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+}
+slot-column h4 {
+  background: lightgray;
+  margin: 0;
+  padding: 10px;
+  min-height: 72px;
+  font-size: 16px;
+}
+slot-column div {
+  border-top: 1px solid #eceeef;
+  padding: 10px;
+}

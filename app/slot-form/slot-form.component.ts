@@ -8,7 +8,7 @@ import {Component, Input, Output, EventEmitter} from "@angular/core";
       <div class="form-group">
         <label for="slot-column">Theme</label>
         <select id="slot-column" class="form-control" required [(ngModel)]="model.theme">
-          <option *ngFor="let theme of themes" [value]="theme">{{theme}}</option>
+          <option *ngFor="let theme of themes" [value]="theme">{{ theme }}</option>
         </select>
       </div>
 
@@ -21,12 +21,7 @@ import {Component, Input, Output, EventEmitter} from "@angular/core";
     </form>
     `,
   providers: [],
-  directives: [],
-  styles: [`
-    :host {
-      display: inline-block;
-    }
-  `]
+  directives: []
 })
 export class SlotFormComponent {
   @Input()
